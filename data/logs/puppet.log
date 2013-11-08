@@ -249,3 +249,7 @@ Fri Oct 25 15:46:33 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modul
 Fri Oct 25 15:46:33 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/concat/lib/facter/concat_basedir.rb
 Fri Oct 25 15:46:33 +0000 2013 Puppet (info): Applying configuration version '1382715992'
 Fri Oct 25 15:46:34 +0000 2013 Puppet (notice): Finished catalog run in 0.28 seconds
+Fri Nov 08 02:52:05 +0000 2013 Puppet (err): Puppet::Parser::AST::Resource failed with error ArgumentError: Could not find declared class epel at /opt/nepho/data/common/puppet/manifests/init.pp:3 on node localhost.hsd1.nh.comcast.net
+Wrapped exception:
+Could not find declared class epel
+Fri Nov 08 02:52:05 +0000 2013 Puppet (err): Puppet::Parser::AST::Resource failed with error ArgumentError: Could not find declared class epel at /opt/nepho/data/common/puppet/manifests/init.pp:3 on node localhost.hsd1.nh.comcast.net

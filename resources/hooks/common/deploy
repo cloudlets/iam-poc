@@ -1,3 +1,17 @@
 #!/bin/bash
-echo "No deployment actions"
+
+OUTFILE=/var/www/html/index.html
+cat <<EOF "
+'EOF' > ${OUTFILE}
+<html>
+<body>
+<h1>Successful Deployment</h1>
+<hr/>
+</body>
+</html>
+EOF
+chmod 644  ${OUTDIR}/*
+chown root:root ${OUTFILE}
+
+EOF
 exit 0
